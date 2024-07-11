@@ -66,22 +66,27 @@ model(x_input)
 ## Qualitative results
 
 Due to the high number of classes, we decided to show qualitative results for selected organs.
-<table>
+<table style="width: 100%; text-align: center;">
   <tr>
-    <td style="text-align: center; vertical-align: top; padding-right: 20px;">
-      <img src="./images/gt4.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
-      <img src="./images/gt2.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
-      <img src="./images/gt3.gif" alt="gif3" style="width: 300px;"><br>
+    <td style="vertical-align: top; padding-right: 20px;">
+      <div>
+        <img src="./images/gt4.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
+        <img src="./images/gt2.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
+        <img src="./images/gt3.gif" alt="gif3" style="width: 300px;">
+      </div>
       <p style="font-size: 14px; margin-top: 5px;">Ground truth</p>
     </td>
-    <td style="text-align: center; vertical-align: top;">
-      <img src="./images/gif4.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
-      <img src="./images/gif2.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
-      <img src="./images/gif3.gif" alt="gt3" style="width: 300px;"><br>
+    <td style="vertical-align: top;">
+      <div>
+        <img src="./images/gif4.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
+        <img src="./images/gif2.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
+        <img src="./images/gif3.gif" alt="gt3" style="width: 300px;">
+      </div>
       <p style="font-size: 14px; margin-top: 5px;">Swin SMT</p>
     </td>
   </tr>
 </table>
+
 
 
 
