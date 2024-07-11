@@ -69,23 +69,24 @@ Due to the high number of classes, we decided to show qualitative results for se
 <table style="width: 100%; text-align: center;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <div>
+      <div style="display: flex; flex-direction: column; align-items: center;">
         <img src="./images/gt4.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
         <img src="./images/gt2.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;"><br>
         <img src="./images/gt3.gif" alt="gif3" style="width: 300px;">
+        <p style="font-size: 14px; margin-top: 5px;">Ground truth</p>
       </div>
-      <p style="font-size: 14px; margin-top: 5px;">Ground truth</p>
     </td>
     <td style="vertical-align: top;">
-      <div>
+      <div style="display: flex; flex-direction: column; align-items: center;">
         <img src="./images/gif4.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
         <img src="./images/gif2.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;"><br>
         <img src="./images/gif3.gif" alt="gt3" style="width: 300px;">
+        <p style="font-size: 14px; margin-top: 5px;">Swin SMT</p>
       </div>
-      <p style="font-size: 14px; margin-top: 5px;">Swin SMT</p>
     </td>
   </tr>
 </table>
+
 
 
 
