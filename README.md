@@ -68,22 +68,27 @@ model(x_input)
 Due to the high number of classes, we decided to show qualitative results for selected organs.
 <div style="display: flex; align-items: center; justify-content: center;">
     <div style="text-align: center; margin-right: 20px;">
-         <img src="./images/gt4.gif" alt="gif3" style="width: 300px;">
-        <img src="./images/gt2.gif" alt="gif3" style="width: 300px;">
-        <img src="./images/gt3.gif" alt="gif3" style="width: 300px;">
-        <p style="font-size: 14px; margin-top: 5px;">Ground truth</p>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="./images/gt4.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;">
+            <img src="./images/gt2.gif" alt="gif3" style="width: 300px; margin-bottom: 10px;">
+            <img src="./images/gt3.gif" alt="gif3" style="width: 300px;">
+            <p style="font-size: 14px; margin-top: 5px;">Ground truth</p>
+        </div>
     </div>
     <div style="text-align: center;">
-        <img src="./images/gif4.gif" alt="gt3" style="width: 300px;">
-        <img src="./images/gif2.gif" alt="gt3" style="width: 300px;">
-        <img src="./images/gif3.gif" alt="gt3" style="width: 300px;">
-        <p style="font-size: 14px; margin-top: 5px;">Swin SMT</p>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="./images/gif4.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;">
+            <img src="./images/gif2.gif" alt="gt3" style="width: 300px; margin-bottom: 10px;">
+            <img src="./images/gif3.gif" alt="gt3" style="width: 300px;">
+            <p style="font-size: 14px; margin-top: 5px;">Swin SMT</p>
+        </div>
     </div>
 </div>
 
+
 ## Hardware requirements
 
-We trained Swin SMT on NVIDIA DGX server, eqquiped with 8 &times; NVIDIA A100 40GB GPUs. 
+We trained Swin SMT on NVIDIA DGX server, equipped with 8 &times; NVIDIA A100 40GB GPUs. 
 
 ## Citation
 
