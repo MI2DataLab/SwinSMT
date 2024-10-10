@@ -7,8 +7,12 @@ To the best of our knowledge, this is the first benchmark of [TotalSegmentator-V
 The [dataset](https://zenodo.org/records/10047292) consists od 1228 CT scans and 117 major anatomical structure segmentations. Following the original split, 
 we train, validate and test model on 1082, 57, and 89 cases, respectively.
 
-
 ![swinmt](./images/swinmt.png)
+
+
+## 💥**NEWS**💥
+
+- **[02.09.2024]** The Swin SMT was selected for a **Spotlight** oral presentation 🎉 
 
 ## Abstract
 
@@ -101,11 +105,14 @@ ArXiv preprint can be found [here](https://arxiv.org/pdf/2407.07514).
 
 If you find this repository useful, please consider citing this paper:
 ```
-@article{plotka2024swinsmt,
+@inproceedings{plotka2024swin,
   title={Swin SMT: Global Sequential Modeling for Enhancing 3D Medical Image Segmentation},
-  author={Płotka, Szymon and Chrabaszcz, Maciej and Biecek, Przemyslaw},
-  journal={arXiv preprint arXiv:2407.07514},
-  year={2024}
+  author={P{\l}otka, Szymon and Chrabaszcz, Maciej and Biecek, Przemyslaw},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={689--698},
+  year={2024},
+  organization={Springer}
+}
 ```
 
 ## References
